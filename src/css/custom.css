@@ -1,0 +1,46 @@
+:root {
+  --ifm-color-primary: #516e41;
+  --ifm-color-primary-dark: #415834;
+  --ifm-color-primary-darker: #394d2e;
+  --ifm-color-primary-darkest: #314227;
+  --ifm-color-primary-light: #61844e;
+  --ifm-color-primary-lighter: #698f55;
+  --ifm-color-primary-lightest: #719a5b;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #83a35e;
+  --ifm-color-primary-darker: #7c9a58;
+  --ifm-color-primary-darkest: #667f49;
+  --ifm-color-primary-light: #9fb782;
+  --ifm-color-primary-lighter: #a6bd8b;
+  --ifm-color-primary-lightest: #bbcca6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+/* 自訂義其他版面及色彩 */
+:root {
+  --ifm-background-surface-color: #b5caa0;
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #373c38;
+  --ifm-background-surface-color: #36563c;
+}
+.footer--dark {
+  --ifm-footer-background-color: #373c38;
+}
+
+.home-text {
+  align-content: end;
+}
+
+@media (min-width: 997px) {
+  .home-box {
+    height: calc(100vh - 250px);
+    align-content: center;
+  }
+}
