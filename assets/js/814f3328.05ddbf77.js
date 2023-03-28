@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"\u6700\u65b0\u6587\u7ae0","items":[{"title":"\u505a\u5c31\u5c0d\u4e86","permalink":"/bamboo-note/blog/2023-03-28-first-blog"}]}')}}]);
